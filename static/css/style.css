@@ -9,7 +9,7 @@ body {
     border: 1px solid #ddd;
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: 100%;
 }
 
 #urlInput {
@@ -23,6 +23,7 @@ body {
     background-color: #007bff;
     color: white;
     border: none;
+    width: 100px;
     cursor: pointer;
 }
 
@@ -38,6 +39,7 @@ body {
 
     #urlInput {
         margin-bottom: 8px;
+        max-width: 100%;
     }
 
     #submitButton {
